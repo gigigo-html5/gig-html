@@ -1,0 +1,30 @@
+<!--
+ Webcomponents to generate html
+ @version v0.0.1 - 2015-12-27
+ @link https://github.com/gigigo-html5/gig-html
+ @author Pedro José Peña Jerez <pedro.jose@gigigo.com>
+ @license MIT License, http://www.opensource.org/licenses/MIT
+ -->
+
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="gig-html">
+    <template></template>
+    <script>
+    Polymer({
+        is: 'gig-html',
+        ready: function() {
+            this.htmlChanged();
+        },
+        htmlChanged: function() {
+            console.log(this.html);
+            this.innerHTML = this.html;
+        },
+        properties: {
+            html: {
+                type: String
+            }
+        }
+      });
+    </script>
+</dom-module>

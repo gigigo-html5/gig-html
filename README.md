@@ -1,2 +1,4 @@
-# gig-html
-Web Component to insert html content
+# gig-component-fieldmap
+Webcomponents to manage data from a google map. Returns latitude and longitude
+
+
