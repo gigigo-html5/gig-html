@@ -1,0 +1,21 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="gig-html">
+  <template></template>
+  <script>
+    Polymer({
+      is: 'gig-html',
+      ready: function() {
+        this.htmlChanged();
+      },
+      htmlChanged: function() {
+        this.innerHTML = this.html;
+      },
+      properties: {
+        html: {
+          type: String
+        }
+      }
+    });
+  </script>
+</dom-module>
