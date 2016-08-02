@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="fragment" content="!">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <meta name="mobile-web-app-capable" content="yes">
-    <title>Gig Component fieldMap Demo</title>
-    <link rel="import" href="/demo/gig-html.html">
+  <meta charset="utf-8">
+  <meta name="fragment" content="!">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Gig Component generate Html</title>
+  <link rel="import" href="../src/gig-html.html">
 
-    <style is="custom-style">
-        .field {
-            position:relative;
-            padding: 10px 0;
-        }
+  <style is="custom-style">
+    .field {
+      position: relative;
+      padding: 10px 0;
+    }
 
-        label {
-            display: block;
-            font-family: Arial, sans-serif;
-            margin-bottom: 5px;
-        }
-    </style>
+    label {
+      display: block;
+      font-family: Arial, sans-serif;
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="field">
-        <label>Insert HTML</label>
-        <gig-html html="<p>Esto es una <b>prueba</b><br/></p>"></gig-html>
-    </div>
-
-
+<div class="field">
+  <label>Insert HTML</label>
+  <gig-html html="<p>This is a <b>test</b><br/></p>"></gig-html>
+</div>
 </body>
-
 </html>
